@@ -1,0 +1,7 @@
+path: /content/pest_data_yolo_classification/
+train: train
+val: val
+test: test
+nc: 12
+names: ['ants', 'bees', 'beetle', 'catterpillar', 'earthworms', 'earwig', 'grasshopper', 'moth', 'slug', 'snail', 'wasp', 'weevil']
+
