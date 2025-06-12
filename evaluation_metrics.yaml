@@ -1,0 +1,117 @@
+class_accuracies:
+  ants: !!python/object/apply:numpy._core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    1PqVArV+WEA=
+  bees: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    KK+hvIbyV0A=
+  beetle: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    LS0tLS0tUEA=
+  catterpillar: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    MQzDMAzDU0A=
+  earthworms: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    UwN7x9TAVUA=
+  earwig: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    DuU1lNcQVEA=
+  grasshopper: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    5TWU11BeVkA=
+  moth: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAADAV0A=
+  slug: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAVUA=
+  snail: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ymsor6G8WEA=
+  wasp: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    TTDeyj6HWEA=
+  weevil: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    0AIt0AItWEA=
+confusion_matrix: !!python/object/apply:numpy._core.multiarray._reconstruct
+  args:
+  - !!python/name:numpy.ndarray ''
+  - !!python/tuple
+    - 0
+  - !!binary |
+    Yg==
+  state: !!python/tuple
+  - 1
+  - !!python/tuple
+    - 12
+    - 12
+  - !!python/object/apply:numpy.dtype
+    args:
+    - i8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - false
+  - !!binary |
+    YQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbAAAAAAAAAAEA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAADAAAAAAAAADcAAAAAAAAAAgAAAAAAAAACAAAA
+    AAAAAAYAAAAAAAAABAAAAAAAAAABAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAUAAAAA
+    AAAAAQAAAAAAAAABAAAAAAAAAAIAAAAAAAAAUwAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAA
+    AAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAIAAAAAAAAAAQAAAAAAAABDAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAA
+    AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAACAAAAAAAAAAEAAAAAAAAABAAAAAAAAAAB
+    AAAAAAAAAD0AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAVQAA
+    AAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA
+    AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAABfAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAA
+    AAABAAAAAAAAAAEAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAgAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAFgAAAAAAAAA
+test_accuracy: !!python/object/apply:numpy._core.multiarray.scalar
+- *id001
+- !!binary |
+  6rxfD3pcVkA=
+val_accuracy: 0.9044368863105774
+val_top5: 0.9874857664108276
